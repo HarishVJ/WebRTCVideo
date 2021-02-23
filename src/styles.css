@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  
+    background-color:silver;
+  }
+  
+  #gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: calc(var(--width) * var(--cols));
+  }
+  
+  .video-container {
+    width: var(--width);
+    height: var(--height);
+    background-color: #3a3a3e;
+  }
+  
+  video {
+    height: 100%;
+    width: 100%;
+  }

@@ -8,9 +8,37 @@ body {
   
     background-color:silver;
   }
+  .divsliderRight {
+    color: white;
+    font: bold 18px Arial, Sans-Serif;
+    line-height: 18px;
+    height: 40px;
+    width:40px;
+    background: white;
+    position: absolute;
+    right: 0;
+    bottom: 500px;
+    padding: 4px;
+    background-image: "../assets/right.png !important";
+  }
   
-  #gallery {
-    display: flex;
+
+  .divsliderLeft {
+    color: white;
+    font: bold 18px Arial, Sans-Serif;
+    line-height: 18px;
+    height: 40px;
+    width:40px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: 500px;
+    padding: 4px;
+    background-image: "../assets/left.png !important";
+  }
+
+  .container {
+    display: flex ;
     justify-content: center;
     flex-wrap: wrap;
     max-width: calc(var(--width) * var(--cols));
@@ -26,3 +54,17 @@ body {
     height: 100%;
     width: 100%;
   }
+
+  .videoLabel {
+    color: white;
+    font: bold 18px Arial, Sans-Serif;
+    line-height: 18px;
+    height: 18px;
+
+    background: rgba(240, 236, 236, 0.55);
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 4px;
+}
